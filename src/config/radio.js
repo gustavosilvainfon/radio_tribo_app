@@ -1,10 +1,10 @@
 // Configurações da Rádio Tribo FM
 export const RADIO_CONFIG = {
   // URL da API - SUBSTITUA pela URL do seu backend hospedado
-  API_URL: __DEV__ ? 'http://localhost:3001/api' : 'https://seu-backend.render.com/api',
+  API_URL: __DEV__ ? 'http://localhost:3001/api' : 'https://radio-tribo-backend.onrender.com/api',
   
   // URL do stream da rádio - será carregada da API
-  STREAM_URL: 'https://stream.example.com/radio', // fallback
+  STREAM_URL: 'https://stm21.srvstm.com:6874/stream', // fallback
   
   // Informações da rádio - serão carregadas da API
   NAME: 'Rádio Tribo FM',
